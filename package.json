@@ -1,5 +1,5 @@
 {
-  "name": "bullet-journal",
+  "name": "vue-bullet-journal",
   "version": "1.0.0",
   "description": "a very basic bullet journal",
   "main": "src/main.js",
