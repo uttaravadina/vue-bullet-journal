@@ -1,6 +1,6 @@
 # vue-bullet-journal
 
-> A simple bullet journal build in vue.js
+> A simple Vue.js bullet journal system
 
 ## Build Setup
 
