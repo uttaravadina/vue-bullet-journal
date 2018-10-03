@@ -1,6 +1,6 @@
-# test-project
+# vue-bullet-journal
 
-> A Vue.js project
+> A simple Vue.js bullet journal system
 
 ## Build Setup
 
