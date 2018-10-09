@@ -43,6 +43,11 @@ export default {
   methods: {
     ...mapActions('entries', ['addEntry']),
     ...mapActions('journal', ['updateDay'])
+  },
+  mounted() {
+    var input = this.$el.querySelector('header>input'); // I'm text inside the component.
+    input.focus();
+    input.select();
   }
 };
 </script>

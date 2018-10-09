@@ -25,7 +25,12 @@ export default {
       }
     }
   },
-  methods: mapActions('entries', ['updateEntry'])
+  methods: mapActions('entries', ['updateEntry']),
+  mounted() {
+    var input = this.$el.querySelector('input.text'); // I'm text inside the component.
+    input.focus();
+    input.select();
+  }
 }
 </script>
 <style scoped>
